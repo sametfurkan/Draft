@@ -9,7 +9,7 @@ public class toStringOverride {
     public int distance;
 
 
-
+    @Override
     public String toString(){
         String s = new String();
         s += "Car Info\n";
